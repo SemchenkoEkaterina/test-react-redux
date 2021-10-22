@@ -1,0 +1,28 @@
+@import "/src/common/styles/variables.scss";
+
+.login__button {
+    background: linear-gradient(74deg, $orange-color 43%, $primary-color);
+    border: none;
+    padding: 5px 25px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 1.2rem;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login__button-google:hover {
+    background: $primary-color;
+    transform: scale(1.03, 1.03);
+    transition: all 0, 2s ease-out;
+}
